@@ -1,5 +1,7 @@
 import EcommerceDashboard from "../../components/Ecommerce/EcommerceDashboard";
 import ProjectionsVsActualsChart from "../../components/ProjectionsVsActualsChart";
+import { RevenueByLocation, RevenueChart } from "../../components/RevenueDashboard";
+import TopSellingProducts from "../../components/TopSellingProducts";
 
 const Dashboard = () => {
   return (
@@ -14,6 +16,17 @@ const Dashboard = () => {
         <div className="w-1/2">
           <ProjectionsVsActualsChart />
         </div>
+      </div>
+      <div className="flex w-full gap-6">
+        <div className="w-1/2">
+          <RevenueChart />
+        </div>
+        <div className="w-1/2">
+          <RevenueByLocation />
+        </div>
+      </div>
+      <div>
+        <TopSellingProducts />
       </div>
     </div>
   );

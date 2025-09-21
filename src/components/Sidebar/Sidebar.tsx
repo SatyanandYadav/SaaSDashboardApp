@@ -7,7 +7,7 @@ import { mockSidebarData as sidebarData } from "../../constants";
 const Sidebar = () => (
   <aside
     aria-label="Sidebar Navigation"
-    className="flex h-screen w-72 flex-col bg-white p-4 shadow"
+    className="flex h-full w-72 flex-col bg-white p-4 shadow"
     data-testid="sidebar"
   >
     {/* User Section */}
