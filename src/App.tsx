@@ -1,12 +1,10 @@
 import React from "react";
-import Navbar from "./components/NavBar";
-import AppRoutes from "./routes/AppRoutes";
+import Sidebar from "./components/Sidebar/Sidebar";
 
 function App() {
   return (
     <div>
-      <Navbar />
-      <AppRoutes />
+      <Sidebar></Sidebar>
     </div>
   );
 }
