@@ -58,3 +58,47 @@ export const mockSidebarData = {
     }
   ]
 };
+
+export const ecommerceMetrics = [
+  {
+    title: "Customers",
+    value: 3781,
+    change: "+11.01%",
+    isPositive: true,
+    background: "bg-blue-50", // Light blue
+    testId: "customers-card"
+  },
+  {
+    title: "Orders",
+    value: 1219,
+    change: "-0.03%",
+    isPositive: false,
+    background: "bg-gray-50",
+    testId: "orders-card"
+  },
+  {
+    title: "Revenue",
+    value: "$695",
+    change: "+15.03%",
+    isPositive: true,
+    background: "bg-gray-50",
+    testId: "revenue-card"
+  },
+  {
+    title: "Growth",
+    value: "30.1%",
+    change: "+6.08%",
+    isPositive: true,
+    background: "bg-blue-50", // Light blue
+    testId: "growth-card"
+  }
+];
+
+export const mockChartData = [
+  { month: "Jan", projected: 20, actual: 17 },
+  { month: "Feb", projected: 25, actual: 21 },
+  { month: "Mar", projected: 21, actual: 18 },
+  { month: "Apr", projected: 25, actual: 22 },
+  { month: "May", projected: 18, actual: 14 },
+  { month: "Jun", projected: 23, actual: 19 }
+];
